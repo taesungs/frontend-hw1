@@ -1,0 +1,93 @@
+.user-details {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px; 
+    width: 100%;
+    max-width: 250px; 
+  }
+  
+  .user-details .input-row {
+    display: flex;
+    gap: 30px; 
+  }
+  
+  .user-details .input-row > div {
+    width: 50%; 
+  }
+  
+  .user-details label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .user-details input {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f3f4f6;
+    color: #6b7280;
+  }
+  
+  .button-row{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .back-btn{
+    background: none;
+    border: none;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .continue-btn{
+    background: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .Upload-btn{
+    border: 1px solid blue;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: white;
+    color: blue;
+    cursor: pointer;
+  }
+
+  .remove-btn {
+    font-size: 14px;
+    background: none;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .photo-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-items: center;
+  }
